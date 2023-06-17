@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>APPSY - Topics - start with us</title>
+<link rel="shortcut icon" href="A.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4RYX88G5R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4RYX88G5R0');
+</script>
+<style>
+  .w3-container h3{
+    color: #000;
+    text-align: center;
+  }
+  footer {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+.ull {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+.ull li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+#id1:hover{
+  background-color: #ffffff;
+  color:  blue;
+}
+#id2:hover{
+  background-color: #bac6d9;
+  color: purple;
+}
+#id3:hover{
+  background-color: #fff;
+  color: #007bff;
+}
+#id4:hover{
+  background-color: #ff0000;
+ color:rgb(255, 255, 255);
+}
+#id5:hover{
+  background-color: white;
+  color: #000;
+}
+#btn3:hover{
+     background-color: #008cff;
+}
+</style>
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>APPSY</a>
+  <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a style="color: #007bff;" href="topics.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Topics</a>
+  <a class="w3-bar-item w3-button w3-hide-small w3-hover-white" href="tel:7838252640">Call:7838252640</a>
+  <a href="founder.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About the founder</a>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button"></a>
+     <a href="#home" class="w3-bar-item w3-button"></a> 
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="topics.html" class="w3-bar-item w3-button">Topics</a>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    <a href="founder.html" class="w3-bar-item w3-button">About the founder</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <div>
+    <img src="https://www.w3schools.com/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  </div>
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+   <a href="#topics"> <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Topics</button></a>
+  </div>
+</div>
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="topics">
+<h2>OUR TOPICS</h2>
+<p>There are the topics you need to learn:</p>
+
+<div class="w3-row"><br>
+
+
+<a href="chatgpt.html"><div class="w3-quarter">
+    <img src="ChatGPT_logo.svg.webp" alt="Boss" style="width:43%">
+    <h3>ChatGpt</h3>
+    <p>ChatGpt is invented by Elon Musk it is a software robo who is talkable.</p>
+  </div></a>
+  <a href="sheets.html"><div class="w3-quarter">
+    <img src="unnamed (1).png" alt="Boss" style="width:43%">
+    <h3>Google Shhets</h3>
+    <p>Google Sheets is a google product for designing a table.</p>
+  </div></a>
+  <a href="excel.html"><div class="w3-quarter">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/640px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Boss" style="width:43%">
+    <h3></i>Excel</h3>
+    <p>Excel is just like sheets but their are some diffrent features in it.</p>
+  </div></a>
+</div>
+</div>  
+</div>
+<!-- Image of location/map -->
+<img src="pexels-luis-del-río-15286.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer>
+  <div class="row primary">
+    <div class="column about">
+  
+    <h3 style="color: #fff;" >APPSY</h3>
+     <h2>Location</h2>
+     <p>
+        Manpuri-205001  Behind Pursotam Collection coplex  ahead Om Dance Lab UEDevloper-inside
+    </p>
+  
+    <div style="cursor: pointer;" class="social">
+      <i id="id1" class="fa-brands fa-facebook-square"></i>
+      <i id="id2" class="fa-brands fa-instagram-square"></i>
+      <i id="id3" class="fa-brands fa-twitter-square"></i>
+      <i id="id4" class="fa-brands fa-youtube-square"></i>
+      <i id="id5" class="fa-brands fa-github-square"></i>
+    </div>
+  </div>
+  
+  <div class="column links">
+    <h3 style="color: #f8f8f8ff;" >Our gears</h3>
+    
+    <ul style="list-style-type: none;" class="ull" >
+   
+     <li>
+      <a href="#">Company mobile - iPhone12</a>
+     </li>
+     <li>
+      <a href="#">Company Laptop - del</a>
+     </li>
+     <li>
+      <a href="#">Company Website - APPSY</a>
+     </li>
+     <li>
+      <a href="#">Company watch - apple</a>
+     </li>
+    </ul>
+   
+  
+  </div>
+  
+  
+  <div class="column links">
+    <h3 style="color: #fff;" >Some Links</h3>
+     <ul>
+      <li>
+       <a href="https://www.w3schools.com/">W3 Schools</a>
+      </li>
+      <li>
+       <a href="https://www.codewithharry.com/">CodeWithHarry</a>
+      </li>
+      <li>
+      <a href="https://getbootstrap.com/">Get Bootstrap.com</a>
+      </li>
+      <li>
+      <a href="index.html">APPSY</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="column subscribe">
+   <h3 style="color: #fff;" >Newsletter</h3>
+    <div>
+      <label for="username">Email:</label>
+<input style="background-color: beige;" type="text" id="usename" name="username" required placeholder="if dont want to give Email then Subscribe without giving Email.">
+ <a href="#"><button onclick="run()" id="btn3" type="submit" >Subscribe</button></a>
+    </div>
+  </div>
+  
+  </div>
+     <p>Copyright &copy ; 2021 APPSY
+    <a style="float: right; margin-right: 12px; color: aqua;" href="#">Back To Top</a></p>
+  </div>
+  </footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

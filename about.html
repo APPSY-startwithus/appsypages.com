@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>APPSY - ABOUT - Start With Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="A.png" type="image/x-icon">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000000;
+  line-height: 1.8;
+}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://www.uedeveloper.com/images/bg/slider7.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url(pexels-cottonbro-studio-4065876.jpg);
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url(pexels-fox-1595385.jpg);
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+footer {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+.ull {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+.ull li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+#id1:hover{
+  background-color: #ffffff;
+  color:  blue;
+}
+#id2:hover{
+  background-color: #bac6d9;
+  color: purple;
+}
+#id3:hover{
+  background-color: #fff;
+  color: #007bff;
+}
+#id4:hover{
+  background-color: #ff0000;
+ color:rgb(255, 255, 255);
+}
+#id5:hover{
+  background-color: white;
+  color: #000;
+}
+#btn3:hover{
+     background-color: #008cff;
+}
+.w3-row-padding img:hover{
+   
+}
+</style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4RYX88G5R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4RYX88G5R0');
+</script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+       <a class="w3-bar-item w3-button" href="index.html">APPSY</a>
+    <a href="index.html" class="w3-bar-item w3-button"><i class="fa-solid fa-house"></i> HOME</a>
+    <a style="color: blue;" href="about.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i><i class="fa-solid fa-adress-card" ></i> ABOUT</a>
+    <a href="topics.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>Topics</a>
+    <a class="w3-bar-item w3-button w3-hide-small w3-hover-white" href="tel:7838252640">Call:7838252640</a>
+    <a href="founder.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa-solid fa-address-card"></i> About the founder</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="topics.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Topics</a>
+    <a class="w3-bar-item w3-button w3-hide-small w3-hover-white" href="tel:7838252640">Call:7838252640</a>
+    <a href="founder.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Abou the founder</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">We <span class="w3-hide-small"><span class="w3-hide-small" >Are</span> Squid</span><span class="w3-hide-small" > of </span> Enthusiasts</span><br>
+    <p style="color: #fff;text-align: center;font-size: 25px;" >Oozing with passion</p><br>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center w3-text-black w3-hover-text-gray ">Our Short History</h3>
+  <p class="w3-center"><em>We love devloping</em></p>
+  <p>APPSY was started on 1st may,23 by an Indian Yuvraj Singh Rathore in his age of 10 with his vast knowledge of coding  that time he was alone but with the time he started making a team of children to work on APPSY's masterpieces and the comapny started growing and becomes a wonderful Company.</p>
+  <div class="w3-row"> 
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>We are APPSY</b></p><br>
+      <img src="download.jpg" class="w3-round w3-image w3-bar-block " alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to our website we are squad of enthusiasts who is growing the world in free of cost To increase the level of Jobs in the whole world we are giving computer knowledg to the world. Welcome we are APPSY we will help you in every way we are an Indian Company who works day and night to help you. Many of you were thinking that how we craft masterpieces so first we think that masterpiece in our mind then we do research on it that how can we craft it after the research of months we start implementing on it and finall launch it to rock in the market.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">We are really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Canva</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:99%">99%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Graphic Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:82%">82%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white  w3-hover-text-black">We will help you in any time.</span>
+  </div>
+</div>
+
+<div style="margin-left: 65px; font-family: 'Inter', sans-serif; margin-top: 12px" class="title"><h1>Why we are doing this?</h1></div>
+      <p style="font-family: 'Titillium Web', sans-serif;margin-left: 65px;font-size: 30px;" >
+        As you know we are an IT company which provide free help to the world. We are dreamers who first dreams a wonderful logical structured website then we do research on it. Then implement it on our vast knowledge. And finally after strugle of day and night we finally launch it.
+      </p>
+    </div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-hover-text-black">We will give you best experience</span>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="row primary">
+    <div class="column about">
+  
+    <h3>APPSY</h3>
+     <h2>Location</h2>
+     <p>
+        Manpuri-205001  Behind Pursotam Collection coplex  ahead Om Dance Lab UEDevloper-inside
+    </p>
+  
+    <div style="cursor: pointer;" class="social">
+      <i id="id1" class="fa-brands fa-facebook-square"></i>
+      <i id="id2" class="fa-brands fa-instagram-square"></i>
+      <i id="id3" class="fa-brands fa-twitter-square"></i>
+      <i id="id4" class="fa-brands fa-youtube-square"></i>
+      <i id="id5" class="fa-brands fa-github-square"></i>
+    </div>
+  </div>
+  
+  <div class="column links">
+    <h3>Our gears</h3>
+    
+    <ul style="list-style-type: none;" class="ull" >
+   
+     <li>
+      <a href="#">Company mobile - iPhone12</a>
+     </li>
+     <li>
+      <a href="#">Company Laptop - del</a>
+     </li>
+     <li>
+      <a href="#">Company Website - APPSY</a>
+     </li>
+     <li>
+      <a href="#">Company watch - apple</a>
+     </li>
+    </ul>
+   
+  
+  </div>
+  
+  
+  <div class="column links">
+    <h3>Some Links</h3>
+     <ul>
+      <li>
+       <a href="https://www.w3schools.com/">W3 Schools</a>
+      </li>
+      <li>
+       <a href="https://www.codewithharry.com/">CodeWithHarry</a>
+      </li>
+      <li>
+      <a href="https://getbootstrap.com/">Get Bootstrap.com</a>
+      </li>
+      <li>
+      <a href="index.html">APPSY</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="column subscribe">
+   <h3>Newsletter</h3>
+    <div>
+      <label for="username">Email:</label>
+<input style="background-color: beige;" type="text" id="usename" name="username" required placeholder="if dont want to give Email then Subscribe without giving Email.">
+ <a href="#"><button onclick="run()" id="btn3" type="submit" >Subscribe</button></a>
+    </div>
+  </div>
+  
+  </div>
+     <p style="margin-left: 25px;" >Copyright &copy ; 2021 APPSY
+    <a style="float: right; margin-right: 12px; color: aqua;" href="#">Back To Top</a></p>
+  </div>
+  </footer>
+ 
+<script>
+ // run
+ function run() {
+     alert("Your feedback is recieved")
+ }
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
